@@ -17,6 +17,10 @@
 		6BAF3C3E27BB2BA6009C65C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3C1427BB2BA3009C65C6 /* ContentView.swift */; };
 		6BAF3C3F27BB2BA6009C65C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BAF3C1527BB2BA6009C65C6 /* Assets.xcassets */; };
 		6BAF3C4027BB2BA6009C65C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BAF3C1527BB2BA6009C65C6 /* Assets.xcassets */; };
+		6BAF3C5027BB2ECE009C65C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3C4F27BB2ECD009C65C6 /* Model.swift */; };
+		6BAF3C5127BB2ECE009C65C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3C4F27BB2ECD009C65C6 /* Model.swift */; };
+		6BAF3C5327BB2F54009C65C6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3C5227BB2F54009C65C6 /* NetworkManager.swift */; };
+		6BAF3C5427BB2F54009C65C6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF3C5227BB2F54009C65C6 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		6BAF3C3327BB2BA6009C65C6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BAF3C3727BB2BA6009C65C6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6BAF3C3927BB2BA6009C65C6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		6BAF3C4F27BB2ECD009C65C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6BAF3C5227BB2F54009C65C6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				6BAF3C1327BB2BA3009C65C6 /* AdamNetworkingProjectApp.swift */,
 				6BAF3C1427BB2BA3009C65C6 /* ContentView.swift */,
+				6BAF3C4F27BB2ECD009C65C6 /* Model.swift */,
+				6BAF3C5227BB2F54009C65C6 /* NetworkManager.swift */,
 				6BAF3C1527BB2BA6009C65C6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAF3C5327BB2F54009C65C6 /* NetworkManager.swift in Sources */,
+				6BAF3C5027BB2ECE009C65C6 /* Model.swift in Sources */,
 				6BAF3C3D27BB2BA6009C65C6 /* ContentView.swift in Sources */,
 				6BAF3C3B27BB2BA6009C65C6 /* AdamNetworkingProjectApp.swift in Sources */,
 			);
@@ -308,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAF3C5427BB2F54009C65C6 /* NetworkManager.swift in Sources */,
+				6BAF3C5127BB2ECE009C65C6 /* Model.swift in Sources */,
 				6BAF3C3E27BB2BA6009C65C6 /* ContentView.swift in Sources */,
 				6BAF3C3C27BB2BA6009C65C6 /* AdamNetworkingProjectApp.swift in Sources */,
 			);
